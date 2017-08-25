@@ -22,7 +22,6 @@ public class ItemController {
 	TbItem getItemById(@PathVariable Long itemId) {
 		TbItem tbItem = itemService.getItemById(itemId);
 		return tbItem;
-		
 	}
 	
 }
